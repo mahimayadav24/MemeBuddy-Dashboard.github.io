@@ -1,0 +1,690 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- External CSS Link -->
+    <link rel="stylesheet" href="./CSS/style.css">
+    <!-- Russo one Font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+    <!-- Rochester Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rochester&display=swap" rel="stylesheet">
+    <!-- Poppins Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Russo+One&display=swap" rel="stylesheet">
+    <!-- Montserrat Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <!-- Font Awesome 5 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="./JS/JsChart.js"></script>
+    <title>Dashboard- MemeBuddy</title>
+</head>
+
+<body>
+    <section>
+        <!-- Main Aside Row starts here -->
+        <div class='Aside__Row'>
+            <div class='Aside__col'>
+                <!-- Nav starts here -->
+                <nav>
+                    <h1 id="Russo">M<span class="Rochester">eme</span> B<span class="Rochester">uddy</span></h1>
+                    <div class="Nested__Icon">
+                        <div class="Icon__Img"><img src="./img/DashboardId-modified.png" alt=""></div>
+                        <div class="Id__Name">
+                            <p>Dave Johnson</p> <br>
+                            <p>davej78@yahoo.in</p>
+                        </div>
+                        <div class="Hide__Show">
+                            <div class="Bg__Violet" id="show-hidden-menu"><i class="fas fa-chevron-down"></i></div>
+                        </div>
+                    </div>
+                    <div class="list__Menus">
+                        <ul>
+                            <li class="Nested__List">
+                                <div><img src="./img/Home.png" alt=""></div>
+                                <div><a href="#">Dashboard</a></div>
+                                <div><i class="fas fa-chevron-right"></i></div>
+                            </li>
+                            <li class="Nested__List">
+                                <div><img src="./img/video-player (1) 3.png" alt=""></div>
+                                <div><a href="#">Video Converter</a></div>
+                                <div><i class="fas fa-chevron-right"></i></div>
+                            </li>
+                            <li class="Nested__List">
+                                <div><img src="./img/share 1.png" alt=""></div>
+                                <div><a href="#">Shared Memes</a></div>
+                                <div><i class="fas fa-chevron-right"></i></div>
+                            </li>
+                            <li class="Nested__List">
+                                <div><img src="./img/Group.png" alt=""></div>
+                                <div><a href="#">Media</a></div>
+                                <div><i class="fas fa-chevron-right"></i></div>
+                            </li>
+                            <li class="Nested__List">
+                                <div><img src="./img/Group (1).png" alt=""></div>
+                                <div><a href="#">Your Account</a></div>
+                                <div><i class="fas fa-chevron-right"></i></div>
+                            </li>
+                            <li class="Nested__List">
+                                <div><img src="./img/Group (2).png" alt=""></div>
+                                <div><a href="#">Top User</a></div>
+                                <div><i class="fas fa-chevron-right"></i></div>
+                            </li>
+                            <li class="Nested__List">
+                                <div><img src="./img/surface1.png" alt=""></div>
+                                <div><a href="#">Top Content</a></div>
+                                <div><i class="fas fa-chevron-right"></i></div>
+                            </li>
+                            <li class="Nested__List">
+                                <div><img src="./img/settings 1.png" alt=""></div>
+                                <div><a href="#">Setting</a></div>
+                                <div><i class="fas fa-chevron-right"></i></div>
+                            </li>
+                            <li class="Nested__List">
+                                <div><img src="./img/video-player (1) 3.png" alt=""></div>
+                                <div><a href="#">Logout</a></div>
+                                <div><i class="fas fa-chevron-right"></i></div>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+                <!-- Nav ends here -->
+            </div>
+            <div class='Aside__Dbl__Col'>
+                <div class='Aside__Dbl__Ins__col'>
+                    <!-- Header Starts here -->
+                    <div class="Header__Row">
+                        <img src="./img/Header.png" alt="">
+                        <div class="Text__Ins__Head">
+                            <p>Hi Dave,</p>
+                            <p>Dashboard</p>
+                        </div>
+                    </div>
+                    <!-- Header ends here -->
+                    <!-- Another Aside Starts here -->
+                    <div class='Aside__Graph__Row'>
+                        <div class='Graph__Dbl__Col'>
+                            <div class='Graph__Ins__Dbl__Col'>
+                                <!-- 1 of 3 Grid starts here -->
+                                <div class="Feature__Cards">
+                                    <div class="Hover__cards">
+                                        <div class="Icon__Feature">
+                                            <img src="./img/trending-topic (2) 1.png" alt="">
+                                        </div>
+                                        <div class="Text__Feature">
+                                            <p class="One">Trending Memes</p>
+                                        </div>
+                                    </div>
+                                    <div class="Hover__cards">
+                                        <div class="Icon__Feature1">
+                                            <img src="./img/trending 1.png" alt="">
+                                        </div>
+                                        <div class="Text__Feature">
+                                            <p class="Two">Trending Gifs</p>
+                                        </div>
+                                    </div>
+                                    <div class="Hover__cards">
+                                        <div class="Icon__Feature2">
+                                            <img src="./img/trend 1.png" alt="">
+                                        </div>
+                                        <div class="Text__Feature">
+                                            <p class="Three">Trending Videos</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- 1 of 3 Grid ends here -->
+                                <!-- Graph Box starts here -->
+                                <section id="Bg__Blue">
+                                    <div class='Graph__Box'>
+                                        <div class='Graph__Box_Dbl__Col'>
+                                            <div class='Graph__Box__Ins'>
+                                                <div class="Box__White">
+                                                    <!-- <img src="./img/Group 380.png" alt=""> -->
+                                                    <div id="chartContainer" style="height: 370px; width: 100%;"></div>
+                                                    <div class="Text__Count">
+                                                        <p>Creation Count</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class='Graph__Col'>
+                                            <a href="">Year</a>
+                                            <a href="">Month</a>
+                                            <a href="">Week</a>
+                                            <a href="">Day</a>
+                                        </div>
+                                    </div>
+                                </section>
+                                <!-- Graph Box ends here -->
+                            </div>
+                        </div>
+                        <div class='Aside__Graph__Col'>
+                            <!-- Row starts here -->
+                            <div class='Col__Row'>
+                                <div class='Col__Col'>
+                                    <div class='Top__Col'>
+                                        <p>Create New</p>
+                                        <div class="Three__Cols">
+                                            <a href="#">
+                                                <div class="Button">
+                                                    <span><img src="./img/magic 3.png" alt=""></span><span
+                                                        class="Center">GIF</span>
+                                                </div>
+                                            </a>
+                                            <a href="#">
+                                                <div class="Button">
+                                                    <span><img src="./img/magic-wand 2.png" alt=""></span><span
+                                                        class="Center">Memes</span>
+                                                </div>
+                                            </a>
+                                            <a href="#">
+                                                <div class="Button">
+                                                    <span><img src="./img/magic (1) 3.png" alt=""></span><span
+                                                        class="Center">Videos</span>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class='Col__Col'>
+                                    <div class='Bottom__Col'>
+                                        <div class="Line__Bg">
+                                            <img src="./img/Line BackGround.png" alt="">
+                                            <p>Weekly Creation</p>
+                                            <div class="Nested__Box">
+                                                <div><span>Memes</span> <span>02</span></div>
+                                                <div><span>GIFs</span> <br> <span>01</span></div>
+                                                <div><span>Videos</span> <span>04</span></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Row ends here -->
+                        </div>
+                    </div>
+                    <div class="Hen__Row">
+                        <img src="./img/Vector-Hen.png" id="Large" alt="">
+                        <img src="./img/Untitled (5).png" id="Mobile__Dev" alt="">
+                        <p class="Head__Text">New Arrival</p>
+                        <div class='Hens__Cards'>
+                            <div class='Hen__Cols'>
+                                <div class="upper__Text">
+                                    <p>#</p>
+                                </div>
+                                <div class="Lower__Text">
+                                    <p>1</p>
+                                    <p>2</p>
+                                    <p>3</p>
+                                </div>
+                            </div>
+                            <div class='Hen__Dbl__col'>
+                                <div class='Hen__Ins__Dbl'>
+                                    <!-- Row starts here -->
+                                    <div class='Table__Row'>
+                                        <div class='Table__Col'>
+                                            <div class='left__Tbl__col'>
+                                                <div class="upper__Text">
+                                                    <p>Item</p>
+                                                </div>
+                                                <div class="Lower__Text">
+                                                    <p class="Img__Text"><span><img src="./img/Rectangle 138.png"
+                                                                alt=""></span> <span class="Text__Ico">Happy thr Rock
+                                                            (GIF)</span></p>
+                                                    <p class="Img__Text"><span><img src="./img/Rectangle 138 (1).png"
+                                                                alt=""></span> <span class="Text__Ico">Chicken Dance
+                                                            (Video)</span></p>
+                                                    <p class="Img__Text"><span><img src="./img/Rectangle 138 (2).png"
+                                                                alt=""></span> <span class="Text__Ico">Rock The Floor
+                                                            (Meme)</span></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class='Table__Col'>
+                                            <div class='rght__Tbl__col'>
+                                                <div class="upper__Text">
+                                                    <p>Date & Time</p>
+                                                </div>
+                                                <div class="Lower__Text">
+                                                    <p class="Img__Text cnet"><span>22/02/2021</span> <span
+                                                            class="Text__Icos">5:46Pm</span></p>
+                                                    <p class="Img__Text cnet"><span>12/02/2021</span> <span
+                                                            class="Text__Icos">11:46Pm</span></p>
+                                                    <p class="Img__Text cnet"><span>07/02/2021</span> <span
+                                                            class="Text__Icos">2:46Pm</span></p>
+                                                    <a class="Next"><a class="Hyperlink" href="#"><span class="Pad"><i
+                                                                    class="fas fa-chevron-left"></i></span></a>
+                                                        <button class="Btn__Next">1</button><a class="Hyperlink"
+                                                            href="#"><span class="Pad"> <i
+                                                                    class="fas fa-chevron-right"></i></span></a></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Row ends here -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Another Aside Ends here -->
+                    <!-- 1 of 2 Rows starts here -->
+                    <section id="Section-1-sm">
+                        <div class='Row-sm-1'>
+                            <div class='Col-sm-1'>
+                                <div class='Col-lft-1'>
+                                    <div class="Top__Head">
+                                        <p>Latest Media</p>
+                                    </div>
+                                    <div class="Nested__Grid">
+                                        <div>
+                                            <p class="one__Div">1</p>
+                                        </div>
+                                        <div>
+                                            <div class="Img__Div"><img src="./img/Rectangle 122.png" alt=""></div>
+                                            <div class="Text__Div">
+                                                <p>Chicken Dance</p>
+                                                <p class="Icons__8"><span class="Icons__88"><a href="#">
+                                                            <img src="./img/edit-2-outline (2) 1.png" alt="">
+                                                        </a></span><span class="Icons__88"><a href="#">
+                                                            <img src="./img/Vector (3).png" alt="">
+                                                        </a></span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <hr>
+                                    <div class="Nested__Grid">
+                                        <div>
+                                            <p class="one__Div">2</p>
+                                        </div>
+                                        <div>
+                                            <div class="Img__Div"><img src="./img/Rectangle 123.png" alt=""></div>
+                                            <div class="Text__Div">
+                                                <p>Chicken Dance</p>
+                                                <p class="Icons__8"><span class="Icons__88"><a href="#">
+                                                            <img src="./img/edit-2-outline (2) 1.png" alt="">
+                                                        </a></span><span class="Icons__88"><a href="#">
+                                                            <img src="./img/Vector (3).png" alt="">
+                                                        </a></span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <hr>
+                                    <div class="Nested__Grid">
+                                        <div>
+                                            <p class="one__Div">3</p>
+                                        </div>
+                                        <div>
+                                            <div class="Img__Div"><img src="./img/Rectangle 124.png" alt=""></div>
+                                            <div class="Text__Div">
+                                                <p>Chicken Dance</p>
+                                                <p class="Icons__8"><span class="Icons__88"><a href="#">
+                                                            <img src="./img/edit-2-outline (2) 1.png" alt="">
+                                                        </a></span><span class="Icons__88"><a href="#">
+                                                            <img src="./img/Vector (3).png" alt="">
+                                                        </a></span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <hr>
+                                    <div class="Nested__Grid">
+                                        <div>
+                                            <p class="one__Div">4</p>
+                                        </div>
+                                        <div>
+                                            <div class="Img__Div"><img src="./img/Rectangle 125.png" alt=""></div>
+                                            <div class="Text__Div">
+                                                <p>Chicken Dance</p>
+                                                <p class="Icons__8"><span class="Icons__88"><a href="#">
+                                                            <img src="./img/edit-2-outline (2) 1.png" alt="">
+                                                        </a></span><span class="Icons__88"><a href="#">
+                                                            <img src="./img/Vector (3).png" alt="">
+                                                        </a></span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <hr>
+                                    <div class="Nested__Grid">
+                                        <div>
+                                            <p class="one__Div">5</p>
+                                        </div>
+                                        <div>
+                                            <div class="Img__Div"><img src="./img/Rectangle 122.png" alt=""></div>
+                                            <div class="Text__Div">
+                                                <p>Chicken Dance</p>
+                                                <p class="Icons__8"><span class="Icons__88"><a href="#">
+                                                            <img src="./img/edit-2-outline (2) 1.png" alt="">
+                                                        </a></span><span class="Icons__88"><a href="#">
+                                                            <img src="./img/Vector (3).png" alt="">
+                                                        </a></span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="Float">
+                                        <a href="#"><span class="Pads"><i class="fas fa-chevron-left"></i>
+                                            </span></a><button class="Btn__Nexts">1</button><a href="#"> <span
+                                                class="Pads"><i class="fas fa-chevron-right"></i></span></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class='Col-sm-1'>
+                                <div class='Col-rgh-1'>
+                                    <div class="Top__Head">
+                                        <p>Top Memes</p>
+                                    </div>
+                                    <div class="Nested__Grid">
+                                        <div>
+                                            <p class="one__Div">1</p>
+                                        </div>
+                                        <div>
+                                            <div class="Img__Div"><img src="./img/Rectangle 123.png" alt=""></div>
+                                            <div class="Text__Div">
+                                                <p>Chicken Dance</p>
+                                                <p class="Icons__8"><span class="Icons__88"><a href="#">
+                                                            <img src="./img/edit-2-outline (2) 1.png" alt="">
+                                                        </a></span><span class="Icons__88"><a href="#">
+                                                            <img src="./img/Vector (3).png" alt="">
+                                                        </a></span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <hr>
+                                    <div class="Nested__Grid">
+                                        <div>
+                                            <p class="one__Div">2</p>
+                                        </div>
+                                        <div>
+                                            <div class="Img__Div"><img src="./img/Rectangle 122.png" alt=""></div>
+                                            <div class="Text__Div">
+                                                <p>Chicken Dance</p>
+                                                <p class="Icons__8"><span class="Icons__88"><a href="#">
+                                                            <img src="./img/edit-2-outline (2) 1.png" alt="">
+                                                        </a></span><span class="Icons__88"><a href="#">
+                                                            <img src="./img/Vector (3).png" alt="">
+                                                        </a></span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <hr>
+                                    <div class="Nested__Grid">
+                                        <div>
+                                            <p class="one__Div">3</p>
+                                        </div>
+                                        <div>
+                                            <div class="Img__Div"><img src="./img/Rectangle 124.png" alt=""></div>
+                                            <div class="Text__Div">
+                                                <p>Chicken Dance</p>
+                                                <p class="Icons__8"><span class="Icons__88"><a href="#">
+                                                            <img src="./img/edit-2-outline (2) 1.png" alt="">
+                                                        </a></span><span class="Icons__88"><a href="#">
+                                                            <img src="./img/Vector (3).png" alt="">
+                                                        </a></span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <hr>
+                                    <div class="Nested__Grid">
+                                        <div>
+                                            <p class="one__Div">4</p>
+                                        </div>
+                                        <div>
+                                            <div class="Img__Div"><img src="./img/Rectangle 125.png" alt=""></div>
+                                            <div class="Text__Div">
+                                                <p>Chicken Dance</p>
+                                                <p class="Icons__8"><span class="Icons__88"><a href="#">
+                                                            <img src="./img/edit-2-outline (2) 1.png" alt="">
+                                                        </a></span><span class="Icons__88"><a href="#">
+                                                            <img src="./img/Vector (3).png" alt="">
+                                                        </a></span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <hr>
+                                    <div class="Nested__Grid">
+                                        <div>
+                                            <p class="one__Div">5</p>
+                                        </div>
+                                        <div>
+                                            <div class="Img__Div"><img src="./img/Rectangle 122.png" alt=""></div>
+                                            <div class="Text__Div">
+                                                <p>Chicken Dance</p>
+                                                <p class="Icons__8"><span class="Icons__88"><a href="#">
+                                                            <img src="./img/edit-2-outline (2) 1.png" alt="">
+                                                        </a></span><span class="Icons__88"><a href="#">
+                                                            <img src="./img/Vector (3).png" alt="">
+                                                        </a></span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="Float">
+                                        <a href="#"><span class="Pads"><i class="fas fa-chevron-left"></i>
+                                            </span></a><button class="Btn__Nexts">1</button><a href="#"> <span
+                                                class="Pads"><i class="fas fa-chevron-right"></i></span></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <!-- 1 of 2 Rows ends here -->
+                    <section id="Graphs__sect">
+                        <div class="Graphs__Up__Down">
+                            <img class="Bg__Hide" src="./img/Untitled (8).png" alt="">
+                            <div class="Grid-lg-4">
+                                <div>
+                                    <div class="Img__Rows">
+                                        <img src="./img/new-product 1.png" alt="">
+                                    </div>
+                                    <div class="Text__Rows">
+                                        <p>Trending Gif on meme buddy</p>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="Img__Rows">
+                                        <img src="./img/hot-sale 1.png" alt="">
+                                    </div>
+                                    <div class="Text__Rows">
+                                        <p>Trending Top Memes</p>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="Img__Rows">
+                                        <img src="./img/hot-air-balloon 1.png" alt="">
+                                    </div>
+                                    <div class="Text__Rows">
+                                        <p>Trending Videos</p>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="Img__Rows">
+                                        <img src="./img/confetti 1.png" alt="">
+                                    </div>
+                                    <div class="Text__Rows">
+                                        <p>Top Created Media</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <!-- Last Table starts here -->
+                    <section id="Lst__Table">
+                        <div class="Head__Tbs">
+                            <p>Recently Created Items</p>
+                        </div>
+                        <!-- Aside Table starts here -->
+                        <div class='Aside__Table'>
+                            <div class='Sing__Col'>
+                                <div class="Tbl__Head">
+                                    <p>#</p>
+                                </div>
+                                <div class="Tbl__low">
+                                    <p>1</p>
+                                </div>
+                                <div class="Tbl__low">
+                                    <p>2</p>
+                                </div>
+                                <div class="Tbl__low">
+                                    <p>3</p>
+                                </div>
+                                <div class="Tbl__low">
+                                    <p>4</p>
+                                </div>
+                                <div class="Tbl__low">
+                                    <p>5</p>
+                                </div>
+                                <div class="Tbl__low">
+                                    <p>6</p>
+                                </div>
+                            </div>
+                            <div class='Aside__dbl__col'>
+                                <div class='Aside__Ins__Col'>
+                                    <div class="col__Tbl">
+                                        <div>
+                                            <div class="Tbl__Head">
+                                                <p>Media</p>
+                                            </div>
+                                            <div class="Tbl__lows">
+                                                <div><img src="./img/Rectangle 124.png" alt=""></div>
+                                                <div class="Text__Tbl">
+                                                    <p>Gif</p>
+                                                </div>
+                                            </div>
+                                            <div class="Tbl__lows">
+                                                <div><img src="./img/Rectangle 138.png" alt=""></div>
+                                                <div class="Text__Tbl">
+                                                    <p>Meme</p>
+                                                </div>
+                                            </div>
+                                            <div class="Tbl__lows">
+                                                <div><img src="./img/Rectangle 122.png" alt=""></div>
+                                                <div class="Text__Tbl">
+                                                    <p>Meme</p>
+                                                </div>
+                                            </div>
+                                            <div class="Tbl__lows">
+                                                <div><img src="./img/Rectangle 125.png" alt=""></div>
+                                                <div class="Text__Tbl">
+                                                    <p>Gif</p>
+                                                </div>
+                                            </div>
+                                            <div class="Tbl__lows">
+                                                <div><img src="./img/Rectangle 138 (1).png" alt=""></div>
+                                                <div class="Text__Tbl">
+                                                    <p>Gif</p>
+                                                </div>
+                                            </div>
+                                            <div class="Tbl__lows">
+                                                <div><img src="./img/Rectangle 123.png" alt=""></div>
+                                                <div class="Text__Tbl">
+                                                    <p>Video</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <div class="Tbl__Head">
+                                                <p>Date & Time</p>
+                                            </div>
+                                            <div class="Tbl__lows1">
+                                                <p>22/01/2021 <span>04:22:33</span></p>
+                                            </div>
+                                            <div class="Tbl__lows1">
+                                                <p>22/01/2021 <span>04:22:33</span></p>
+                                            </div>
+                                            <div class="Tbl__lows1">
+                                                <p>22/01/2021 <span>04:22:33</span></p>
+                                            </div>
+                                            <div class="Tbl__lows1">
+                                                <p>22/01/2021 <span>04:22:33</span></p>
+                                            </div>
+                                            <div class="Tbl__lows1">
+                                                <p>22/01/2021 <span>04:22:33</span></p>
+                                            </div>
+                                            <div class="Tbl__lows1">
+                                                <p>22/01/2021 <span>04:22:33</span></p>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <div class="Tbl__Head">
+                                                <p>Action</p>
+                                            </div>
+                                            <div class="Action__btn">
+                                                <div class="Center__S"><span class="Share"><a href="#">
+                                                            <img src="./img/Vector (3).png" alt="">
+                                                        </a></span><span class="Trash"><a href="#"><img
+                                                                src="./img/trash-2.png" alt=""></a></span></div>
+                                            </div>
+                                            <div class="Action__btn">
+                                                <div class="Center__S"><span class="Share"><a href="#">
+                                                            <img src="./img/Vector (3).png" alt="">
+                                                        </a></span><span class="Trash"><a href="#"><img
+                                                                src="./img/trash-2.png" alt=""></a></span></div>
+                                            </div>
+                                            <div class="Action__btn">
+                                                <div class="Center__S"><span class="Share"><a href="#">
+                                                            <img src="./img/Vector (3).png" alt="">
+                                                        </a></span><span class="Trash"><a href="#"><img
+                                                                src="./img/trash-2.png" alt=""></a></span></div>
+                                            </div>
+                                            <div class="Action__btn">
+                                                <div class="Center__S"><span class="Share"><a href="#">
+                                                            <img src="./img/Vector (3).png" alt="">
+                                                        </a></span><span class="Trash"><a href="#"><img
+                                                                src="./img/trash-2.png" alt=""></a></span></div>
+                                            </div>
+                                            <div class="Action__btn">
+                                                <div class="Center__S"><span class="Share"><a href="#">
+                                                            <img src="./img/Vector (3).png" alt="">
+                                                        </a></span><span class="Trash"><a href="#"><img
+                                                                src="./img/trash-2.png" alt=""></a></span></div>
+                                            </div>
+                                            <div class="Action__btn">
+                                                <div class="Center__S"><span class="Share"><a href="#">
+                                                            <img src="./img/Vector (3).png" alt="">
+                                                        </a></span><span class="Trash"><a href="#"><img
+                                                                src="./img/trash-2.png" alt=""></a></span></div>
+                                            </div>
+                                            <div class="Floats">
+                                                <a href="#"><span class="Pads"><i class="fas fa-chevron-left"></i>
+                                                    </span></a><button class="Btn__Nexts">1</button><a href="#"> <span
+                                                        class="Pads"><i class="fas fa-chevron-right"></i></span></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Aside Table ends here -->
+                    </section>
+                    <!-- Last Table ends here -->
+                </div>
+            </div>
+        </div>
+        <!-- Main Aside Row Ends here -->
+    </section>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="./JS/index.js"></script>
+    <script src="https://canvasjs.com/assets/script/jquery-1.11.1.min.js"></script>
+    <script src="https://canvasjs.com/assets/script/jquery.canvasjs.min.js"></script>
+</body>
+
+</html>
